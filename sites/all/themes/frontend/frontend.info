@@ -1,0 +1,39 @@
+name = Fronted
+description = Good theme
+version = VERSION
+core=7.x
+
+stylesheets[all][] = css/plugins/owl-carousel/owl.carousel.css
+stylesheets[all][] = css/plugins/owl-carousel/owl.theme.css
+stylesheets[all][] = plugins/pace/pace-theme-flash.css
+stylesheets[all][] = plugins/boostrapv3/css/bootstrap.min.css
+stylesheets[all][] = plugins/boostrapv3/css/bootstrap-theme.min.css
+stylesheets[all][] = plugins/font-awesome/css/font-awesome.min.css
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/responsive.css
+stylesheets[all][] = css/animate.min.css
+
+
+
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer] = Footer
+
+
+
+scripts[] = plugins/jquery-1.8.3.min.js
+scripts[] = plugins/boostrapv3/js/bootstrap.min.js
+scripts[] = plugins/pace/pace.min.js
+scripts[] = plugins/owl-carousel/owl.carousel.min.js
+scripts[] = plugins/jquery-unveil/jquery.unveil.min.js
+scripts[] = plugins/jquery-nicescroll/jquery.nicescroll.min.js
+scripts[] = http://maps.google.com/maps/api/js?sensor=true
+scripts[] = plugins/jquery-gmap/gmaps.js
+scripts[] = js/google_maps.js
+scripts[] = js/core.js"
